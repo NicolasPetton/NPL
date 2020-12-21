@@ -1,0 +1,21 @@
+{
+	"name": "npl",
+	"version": "1.0.0",
+	"description": "Nico's TiddlyWiki Plugin Library",
+	"main": "index.js",
+	"scripts": {
+		"build-recipes": "./lib/buildPlugins.js",
+		"build-tiddlywiki": "TIDDLYWIKI_PLUGIN_PATH=./plugins ./node_modules/tiddlywiki/tiddlywiki.js . --build",
+		"build": "npm run build-recipes && npm run build-tiddlywiki"
+	},
+	"keywords": [
+		"TiddlyWiki"
+	],
+	"author": "Nicolas Petton",
+	"license": "MIT",
+	"dependencies": {
+		"fs-extra": "^9.0.1",
+		"nodegit": "^0.27.0",
+		"tiddlywiki": "^5.1.22"
+	}
+}

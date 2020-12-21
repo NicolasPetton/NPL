@@ -1,0 +1,13 @@
+created: 20201221110954328
+modified: 20201221122357108
+tags: 
+title: All plugins
+type: text/vnd.tiddlywiki
+
+!! Current list of <$count filter="[tag[npl-plugin]]"/> packages in the latest build:
+
+<$list filter="[tag[npl-plugin]sort[title]]">
+<div class="tc-menu-list-item">
+<$link to={{!!title}}><$view field="title"/></$link>
+</div>
+</$list>

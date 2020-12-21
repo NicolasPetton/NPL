@@ -1,0 +1,5 @@
+{
+	"name": "projectify",
+	"repository": "https://github.com/NicolasPetton/Projectify.git",
+	"pluginPath": "plugins/projectify"
+}

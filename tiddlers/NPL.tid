@@ -1,0 +1,19 @@
+created: 20160309143802331
+modified: 20201221122422865
+tags: $:/tags/PluginLibrary
+title: NPL
+type: text/vnd.tiddlywiki
+url: https://npl.petton.fr/library/index.html
+
+!! About
+
+Nico's Plugin Library is a [[TiddlyWiki|https://tiddlywiki.com]] plugin library containing up-to-date
+plugins built on our servers from upstream source.
+
+* ''Extensible'' -- Contribute new recipes, and we'll build the plugins.
+* ''Automatic updates'' -- New git tags result in new plugins.
+* ''Stable'' -- It only contains stable releases of plugins.
+
+!! Contributing recipes
+
+See [[Contributing recipes]].

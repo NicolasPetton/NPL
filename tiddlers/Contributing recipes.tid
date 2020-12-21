@@ -1,0 +1,22 @@
+created: 20201221110928860
+modified: 20201221115826131
+tags: 
+title: Contributing recipes
+type: text/vnd.tiddlywiki
+
+NPL's is hosted on 
+~GitHub at https://github.com/nicolaspetton/npl. 
+
+Plugins are specified by files in the `recipes` directory. You can contribute a new plugin by adding a new JSON file under `recipes` using the following format:
+
+```
+{
+	"name": "PLUGIN_NAME",
+	"repository": "https://github.com/ME/MYPLUGIN.git",
+	"pluginPath": "PATH_OF_THE_PLUGIN"
+}
+```
+
+* `name`: Name of the plugin.
+* `repository`: Git repository of the plugins
+* `pluginPath` Path of the plugin within the git repository, usually something like `plugins/my-plugin`

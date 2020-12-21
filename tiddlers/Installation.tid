@@ -1,0 +1,14 @@
+created: 20201221122424503
+modified: 20201221122438247
+tags: 
+title: Installation
+type: text/vnd.tiddlywiki
+
+!! Installation instructions
+
+* Drag & drop this link into your wiki to add the plugin library:  [[NPL]]
+
+!! How to install NPL plugins
+
+* Go to the Control Panel of your wiki, in the Plugins tab
+* Open the NPL library

@@ -1,0 +1,45 @@
+[
+    {
+        "title": "$:/themes/nico/notebook",
+        "name": "Notebook theme",
+        "description": "A clean, uncluttered TiddlyWiki theme",
+        "author": "NicolasPetton",
+        "version": "1.1.0",
+        "core-version": ">=5.1.22",
+        "source": "https://github.com/NicolasPetton/Notebook",
+        "list": "LICENSE changelog",
+        "dependents": "$:/themes/tiddlywiki/vanilla $:/plugins/nico/notebook-mobile",
+        "plugin-type": "theme",
+        "type": "application/json",
+        "requires-reload": "no"
+    },
+    {
+        "title": "$:/plugins/nico/notebook-mobile",
+        "name": "Mobile support for the Notebook theme",
+        "description": "JavaScript hooks for mobile devices support of the Notebook theme",
+        "author": "NicolasPetton",
+        "version": "1.0.0",
+        "core-version": ">=5.1.22",
+        "source": "https://github.com/NicolasPetton/Notebook",
+        "list": "",
+        "dependents": "",
+        "plugin-type": "plugin",
+        "type": "application/json",
+        "requires-reload": "yes"
+    },
+    {
+        "title": "$:/plugins/nico/projectify",
+        "name": "Projectify",
+        "description": "Simple project management for TiddlyWiki",
+        "author": "NicolasPetton",
+        "version": "0.6.1",
+        "core-version": ">=5.0.8",
+        "source": "https://github.com/NicolasPetton/Projectify",
+        "list": "installation usage changelog LICENSE",
+        "dependents": "$:/plugins/kixam/moment $:/plugins/kixam/datepicker $:/plugins/flibbles/relink",
+        "plugin-type": "plugin",
+        "type": "application/json",
+        "requires-reload": "no",
+        "icon": "data:text/vnd.tiddlywiki,%3Cdiv%20style%3D%22width%3A22pt%3Bheight%3A22pt%22%3E%0A%20%20%7B%7B%24%3A%2Fthemes%2Fnico%2Fnotebook%2Ficon.svg%7D%7D%0A%3C%2Fdiv%3E%0A"
+    }
+]
