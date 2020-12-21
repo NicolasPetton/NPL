@@ -1,9 +1,8 @@
 created: 20160309143802331
-modified: 20201221154158637
+modified: 20201221160209796
 tags: $:/tags/PluginLibrary
 title: NPL
 type: text/vnd.tiddlywiki
-caption: NPL
 url: https://npl.petton.fr/library/index.html
 
 !! About
@@ -14,6 +13,11 @@ plugins built on our servers from upstream source.
 * ''Extensible'' -- Contribute new recipes, and we'll build the plugins.
 * ''Automatic updates'' -- New git tags result in new plugins.
 * ''Stable'' -- It only contains stable releases of plugins.
+
+NPL attempts to fix some issues with plugin distribution in ~TiddlyWiki today:
+
+* It's hard to know where to get plugins, and how to keep them up-to-date.
+* Not all plugins can be maintained in the core, as many have much faster development cycles.
 
 !! Contributing recipes
 
