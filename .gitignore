@@ -1,2 +1,7 @@
 /output/
 /plugins/pub/**
+/tiddlers/plugins/
+/tiddlers/$__UpgradeLibrary.json
+/tiddlers/$__UpgradeLibrary.json.meta
+/tiddlers/$__UpgradeLibrary_List.json
+/tiddlers/$__UpgradeLibrary_List.json.meta
