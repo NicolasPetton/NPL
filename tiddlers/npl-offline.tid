@@ -1,0 +1,11 @@
+created: 20201221200834452
+modified: 20201221211127822
+tags: 
+title: npl-offline
+type: text/vnd.tiddlywiki
+
+\import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
+\define saveTiddlerFilter()
+[is[tiddler]] -[[$:/boot/boot.css]] -[[$:/HistoryList]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] -[[$:/plugins/tiddlywiki/filesystem]] -[[$:/plugins/tiddlywiki/tiddlyweb]] -[prefix[$:/temp/]] -[[$:/UpgradeLibrary]] -[[$:/UpgradeLibrary/List]] +[sort[title]] $(publishFilter)$
+\end
+{{$:/core/templates/tiddlywiki5.html}}
