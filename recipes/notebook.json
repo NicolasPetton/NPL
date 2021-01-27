@@ -1,5 +1,5 @@
 {
 	"name": "notebook",
 	"repository": "https://github.com/NicolasPetton/notebook.git",
-	"pluginPath": "plugins/notebook"
+	"pluginPath": "themes/notebook"
 }
